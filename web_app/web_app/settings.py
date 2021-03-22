@@ -129,3 +129,12 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static", "staticfiles")
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'media')
+
+
+
+#EMAIL
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_USE_TLS = True
+EMAIL_PORT = "famotorsco@gmail.com"
+EMAIL_HOST_PASSWORD = "famotors_vamos_por_todo_familia"
