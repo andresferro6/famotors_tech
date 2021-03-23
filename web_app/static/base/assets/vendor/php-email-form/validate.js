@@ -3,6 +3,6 @@ jQuery(document).ready(function($) {
 
   //Contact
   $('form.php-email-form').submit(function() {
-    alert('Prueba Definitiva');
+    alert('Muchas gracias por comunicarte con nosotros');
   });
 });
